@@ -1,0 +1,36 @@
+/* asset/style.css */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.hero-section {
+    background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), 
+                url('https://www.pertanian.go.id/img/berita/sawah_indonesia.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 85vh;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+}
+
+.btn-success {
+    background-color: #27ae60;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #219150;
+}
+
+/* Form Styling */
+.center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #e9ecef;
+}

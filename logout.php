@@ -1,6 +1,5 @@
-<?php
-// logout.php
+<?php 
 session_start();
 session_destroy();
-header('Location: auth/login.php');
-exit;
+header("location:../index.php");
+?>
